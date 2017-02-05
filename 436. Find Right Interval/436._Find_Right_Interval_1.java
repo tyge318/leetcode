@@ -1,0 +1,14 @@
+class Solution {
+    public int[] findRightInterval(Interval[] intervals) {
+        TreeMap<Integer, Integer> map = new TreeMap<Integer, Integer>();
+        for(int i=0; i<intervals.length; i++) {
+            map.put(intervals[i].start, i);
+        }
+        int[] ans = new int[intervals.length];
+        for(int i=0; i<intervals.length; i++) {
+            Integer key = map.ceilingKey(intervals[i].end);
+            ans[i] = (key == null) ? -1: map.get(key);
+        }
+        return ans;
+    }
+}
