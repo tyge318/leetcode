@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int findMaxForm(String[] strs, int m, int n) {
         int[][] opt = new int[m+1][n+1];
         

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int[] btree;
     int n;
     public List<Integer> countSmaller(int[] nums) {

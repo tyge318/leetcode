@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<List<Integer>> permute(int[] nums) {
         return work(nums, 0, nums.length-1);
     }

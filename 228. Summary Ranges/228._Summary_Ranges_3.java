@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> summaryRanges(int[] nums) {
         TreeSet<Long> lefts = new TreeSet<Long>();
         TreeSet<Long> rights = new TreeSet<Long>();

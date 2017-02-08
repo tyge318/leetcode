@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String minWindow(String s, String t) {
         int[] tcount = new int[255];
         for(int i=0; i<t.length(); i++) {

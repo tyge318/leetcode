@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String countAndSay(int n) {
         ArrayList<String> seq = new ArrayList<String>();
         seq.add("1");

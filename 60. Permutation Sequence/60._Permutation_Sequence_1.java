@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String getPermutation(int n, int k) {
         int[] factorials = new int[n+1];
         factorials[0] = 1;

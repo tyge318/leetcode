@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int m, n;
     public void solve(char[][] board) {
         if(board.length == 0)

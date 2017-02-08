@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean isNumber(String s) {
         s = s.toLowerCase().trim();
         if(s.isEmpty())

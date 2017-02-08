@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int findDuplicate(int[] nums) {
         int current;
         for(int i=0; i<nums.length; i++) {

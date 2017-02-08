@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
         List<String> ans = new ArrayList<String>();
         if( s.length() < 10)

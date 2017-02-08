@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         StringBuilder temp = new StringBuilder(magazine);
         for(int i=0; i<ransomNote.length(); i++) {

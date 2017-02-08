@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String licenseKeyFormatting(String S, int K) {
         StringBuilder sb = new StringBuilder(S.replaceAll("-", "").toUpperCase());
         sb.reverse();

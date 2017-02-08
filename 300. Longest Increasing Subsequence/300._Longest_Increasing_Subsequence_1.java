@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int lengthOfLIS(int[] nums) {
         int[] opt = new int[nums.length];
         int size = 0;

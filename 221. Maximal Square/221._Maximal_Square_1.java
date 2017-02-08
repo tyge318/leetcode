@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int maximalSquare(char[][] matrix) {
         int m = matrix.length;
         int n = (m == 0)? 0 : matrix[0].length;

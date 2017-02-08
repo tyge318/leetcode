@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int row = obstacleGrid.length, col = obstacleGrid[0].length;
         int[][] ans = new int[row][col];

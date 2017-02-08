@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int[][] reconstructQueue(int[][] people) {
         ArrayList<int[]> list = new ArrayList<int[]>();
         for(int i=0; i<people.length; i++)

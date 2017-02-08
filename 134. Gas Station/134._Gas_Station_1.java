@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         /*
         for(int i=0; i<gas.length; i++) {

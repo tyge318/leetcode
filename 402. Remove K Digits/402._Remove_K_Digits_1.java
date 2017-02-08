@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String removeKdigits(String num, int k) {
         int n = num.length();
         int r = n-k;

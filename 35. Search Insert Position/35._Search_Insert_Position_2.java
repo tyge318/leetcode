@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int searchInsert(int[] nums, int target) {
         return getIndex(nums, 0, nums.length-1, target);
     }

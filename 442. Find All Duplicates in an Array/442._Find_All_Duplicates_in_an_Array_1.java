@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<Integer> findDuplicates(int[] nums) {
         List<Integer> ans = new ArrayList<>();
         for(int i: nums) {

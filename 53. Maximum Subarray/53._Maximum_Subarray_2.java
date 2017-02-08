@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int maxSubArray(int[] nums) {
         return findMSA(nums, 0, nums.length-1);
     }

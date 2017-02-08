@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int minSubArrayLen(int s, int[] nums) {
         int[][] opt = new int[nums.length][2]; 
         //define: opt[i][j] where opt[i][0] = begin index, opt[i][1] = sum to i.

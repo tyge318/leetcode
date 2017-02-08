@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     class BSTNode {
         BSTNode left, right;
         int val, leftCount, dup = 1;

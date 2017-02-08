@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String multiply(String num1, String num2) {
         if( num1.isEmpty() || num2.isEmpty() )
             return "";

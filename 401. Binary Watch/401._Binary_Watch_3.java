@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> readBinaryWatch(int num) {
         Map<Integer, List<Integer>> map = new HashMap<>();
         for(int i=0; i<60; i++) {

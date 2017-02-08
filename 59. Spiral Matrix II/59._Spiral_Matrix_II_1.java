@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int[][] generateMatrix(int n) {
         int[][] matrix = new int[n][n];
         if( n == 0)

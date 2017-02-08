@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     Map<Integer, Boolean> map;
     boolean[] state;
     public boolean canIWin(int maxChoosableInteger, int desiredTotal) {

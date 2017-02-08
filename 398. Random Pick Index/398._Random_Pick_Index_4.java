@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     //Map<Integer, List<Integer>> map;
     int[] nums;
     Random random = new Random();

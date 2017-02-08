@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<List<Integer>> getFactors(int n) {
         List<List<Integer>> ans = new ArrayList<>();
         dfs(ans, new ArrayList<Integer>(), 2, n);

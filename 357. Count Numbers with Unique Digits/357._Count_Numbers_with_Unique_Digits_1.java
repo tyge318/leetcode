@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int countNumbersWithUniqueDigits(int n) {
         long result = 0;
         if(n == 0)

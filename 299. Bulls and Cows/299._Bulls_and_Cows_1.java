@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String getHint(String secret, String guess) {
         int A = 0, B = 0;
         int[] secretCounts = new int[10];

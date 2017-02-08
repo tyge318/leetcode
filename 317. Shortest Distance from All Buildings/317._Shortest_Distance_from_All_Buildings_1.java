@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int m, n, ans;
     int[][] grid;
     int[][] distance;

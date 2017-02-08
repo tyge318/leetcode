@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String convertToTitle(int n) {
         StringBuilder temp = new StringBuilder();
         while( n > 0) {

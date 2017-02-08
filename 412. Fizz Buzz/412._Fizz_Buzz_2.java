@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> ans = new ArrayList<String>();
         for(int i=1; i<=n; i++)

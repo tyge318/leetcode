@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int minMoves2(int[] nums) {
         int median = findKth(nums, nums.length/2+1);
         int ans = 0;

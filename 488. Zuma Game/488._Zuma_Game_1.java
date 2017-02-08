@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int findMinStep(String board, String hand) {
         Map<Character, Integer> handBalls = getHandBalls(hand);
         return helper(board, handBalls);

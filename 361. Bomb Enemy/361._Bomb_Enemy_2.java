@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int m, n;
     public int maxKilledEnemies(char[][] grid) {
         int ans = 0;

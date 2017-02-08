@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int lengthLongestPath(String input) {
         String[] lines = input.split("\n");
         int[] trace = new int[lines.length+1];

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<List<String>> groupStrings(String[] strings) {
         Map<String, List<String>> map = new HashMap<String, List<String>>();
         for(String s: strings) {

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int minPatches(int[] nums, int n) {
         long last = 1;
         int i = 0, count = 0;

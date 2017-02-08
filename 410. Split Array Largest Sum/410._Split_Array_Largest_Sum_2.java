@@ -1,4 +1,9 @@
-class Solution {
+/*  According to the problem definition, ans = max of m subarray sums.
+    => ans >= sum_1, ans >= sum_2, ..., ans >= sum_m
+    => m*ans >= sum_1+sum_2+...+sum_m = sum of array
+    => ans >= (sum of array)/m
+*/
+public class Solution {
     public int splitArray(int[] nums, int m) {
         long min = 0, max = 0;
         for(int i: nums) {

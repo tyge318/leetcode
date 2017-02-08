@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int rob(int[] nums) {
         if( nums.length == 0 )
             return 0;

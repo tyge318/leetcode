@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean validWordSquare(List<String> words) {
         if( words == null)
             return false;

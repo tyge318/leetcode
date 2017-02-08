@@ -1,4 +1,13 @@
-class Solution {
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
     public boolean isValidBST(TreeNode root) {
         return isValid(root, Long.MAX_VALUE, Long.MIN_VALUE);
     }

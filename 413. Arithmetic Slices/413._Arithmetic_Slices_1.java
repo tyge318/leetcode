@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int numberOfArithmeticSlices(int[] A) {
         int n = A.length;
         if( n <= 2)

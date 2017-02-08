@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int countComponents(int n, int[][] edges) {
         int[] roots = new int[n];
         for(int i=0; i<n; i++)

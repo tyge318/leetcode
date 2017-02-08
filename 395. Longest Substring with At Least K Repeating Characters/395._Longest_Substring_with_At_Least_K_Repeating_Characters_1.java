@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int longestSubstring(String s, int k) {
         if( s.length() < k)
             return 0;

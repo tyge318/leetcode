@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int lastRemaining(int n) {
         int begin = 1, d = 1;
         int counter = 0;

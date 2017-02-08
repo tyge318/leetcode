@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<Integer> grayCode(int n) {
         List<Integer> ans = new ArrayList<Integer>(Arrays.asList(0));
         if( n == 0)

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int findComplement(int num) {
         int mask = 0, temp = num;
         while( temp > 0 ) {

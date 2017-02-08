@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<List<Integer>> findSubsequences(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
         dfs(ans, new ArrayList<>(), nums, 0);

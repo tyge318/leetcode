@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> readBinaryWatch(int num) {
         List<String> ans = new ArrayList<>();
         for(int i=0; i<12; i++) {

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int findMin(int[] nums) {
         return irangeMin(nums);
     }

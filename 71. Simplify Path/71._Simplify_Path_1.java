@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String simplifyPath(String path) {
         Stack<String> st = new Stack<String>();
         

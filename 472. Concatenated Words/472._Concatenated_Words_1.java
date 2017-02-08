@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> findAllConcatenatedWordsInADict(String[] words) {
         List<String> ans = new ArrayList<>();
         Set<String> dict = new HashSet<>();

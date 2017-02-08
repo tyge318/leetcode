@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int totalHammingDistance(int[] nums) {
         int ans = 0, n = nums.length;
         for(int i=0; i<32; i++) {

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int hIndex(int[] citations) {
         for(int i=0; i<citations.length; i++)
             citations[i] *= -1;

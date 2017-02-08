@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int countPrimes(int n) {
         if(n<1)
             return 0;

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int countSegments(String s) {
         String[] tokens = s.split("\\s+");
         int ans = tokens.length;

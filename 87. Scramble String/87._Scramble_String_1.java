@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean isScramble(String s1, String s2) {
         int n = s1.length();
         //opt[k][i][j] stores whether s1[i:i+k] is scramble of s2[j:j+k]

@@ -1,4 +1,12 @@
-class Solution {
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         int k = lists.length, doneCounter = 0;
         Heap h = new Heap(k);

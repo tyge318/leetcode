@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int[] findPermutation(String s) {
         int n = s.length()+1;
         int L = 0;

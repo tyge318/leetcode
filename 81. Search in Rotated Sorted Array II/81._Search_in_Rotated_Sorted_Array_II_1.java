@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean search(int[] nums, int target) {
         int begin = 0, end = nums.length-1;
         while( begin <= end) {

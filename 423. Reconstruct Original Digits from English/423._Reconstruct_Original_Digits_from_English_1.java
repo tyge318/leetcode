@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int[][] digit_count;
     public String originalDigits(String s) {
         int[] count = new int[10];

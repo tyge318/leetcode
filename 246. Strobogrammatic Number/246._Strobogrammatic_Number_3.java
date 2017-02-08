@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean isStrobogrammatic(String num) {
         StringBuilder sb = new StringBuilder();
         for(int i=0; i<num.length(); i++) {

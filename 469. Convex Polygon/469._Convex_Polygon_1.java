@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int n;
     public boolean isConvex(List<List<Integer>> points) {
         n = points.size();

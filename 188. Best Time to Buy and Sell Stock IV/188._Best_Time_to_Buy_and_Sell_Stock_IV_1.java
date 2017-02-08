@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int maxProfit(int k, int[] prices) {
         if( prices.length < 2 || k <= 0 )
             return 0;

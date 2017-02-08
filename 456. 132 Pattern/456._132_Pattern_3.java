@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean find132pattern(int[] nums) {
         int a3 = Integer.MIN_VALUE;
         Stack<Integer> st = new Stack<>();

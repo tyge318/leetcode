@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int minCost(int[][] costs) {
         if( costs == null || costs.length == 0 )
             return 0;

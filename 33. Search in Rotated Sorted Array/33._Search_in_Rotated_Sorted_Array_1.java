@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int search(int[] nums, int target) {
         int len = nums.length;
         return sbsearch(nums, 0, len-1, target);

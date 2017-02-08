@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int[][] rooms;
     int m, n;
     int[] dx = {-1, 1, 0, 0};

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     String[] list = {"00", "11", "69", "88", "96"};
     int cut = 0;
     public List<String> findStrobogrammatic(int n) {

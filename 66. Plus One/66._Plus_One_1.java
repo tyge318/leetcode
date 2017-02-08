@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int[] plusOne(int[] digits) {
         int n = digits.length;
         if( digits[n-1] == 9) {

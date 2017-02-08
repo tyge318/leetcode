@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int maxSubArray(int[] nums) {
         int[] opt = new int[nums.length]; //max from 0 to i;
         opt[0] = nums[0];

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public void wallsAndGates(int[][] rooms) {
         if( rooms == null || rooms.length == 0 || rooms[0].length == 0) return;
         int m = rooms.length;

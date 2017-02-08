@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int lengthLongestPath(String input) {
         Stack<String> st = new Stack<String>();
         

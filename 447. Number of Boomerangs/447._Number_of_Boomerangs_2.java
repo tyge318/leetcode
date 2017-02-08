@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int numberOfBoomerangs(int[][] points) {
         int ans = 0;
         for(int[] a: points) {

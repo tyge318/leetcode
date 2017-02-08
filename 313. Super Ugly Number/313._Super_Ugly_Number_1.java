@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int nthSuperUglyNumber(int n, int[] primes) {
         int[] ans = new int[n];
         ans[0] = 1;

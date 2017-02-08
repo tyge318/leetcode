@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int a, b, c;
     public int[] sortTransformedArray(int[] nums, int a, int b, int c) {
         int n = nums.length;

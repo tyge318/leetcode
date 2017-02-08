@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     Map<String, List<String>> map;
     List<List<String>> ans;
     List<String> path;

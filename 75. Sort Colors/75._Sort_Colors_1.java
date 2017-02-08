@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public void sortColors(int[] nums) {
         if( nums.length > 1 ) {
             int R = 0, B = nums.length-1;

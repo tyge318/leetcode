@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String encode(String s) {
         String[][] opt = new String[s.length()][s.length()];
         //opt[i][j] is the optimal solution for substring(i, j+1);

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int[][] reconstructQueue(int[][] people) {
         //the heighest group has the correct k order
         //so first sort reversely based on h

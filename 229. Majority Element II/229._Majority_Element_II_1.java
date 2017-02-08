@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<Integer> majorityElement(int[] nums) {
         List<Integer> ans = new ArrayList<Integer>();
         Integer a = null, b = null;

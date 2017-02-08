@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String smallestGoodBase(String n) {
         long num = Long.valueOf(n);
         

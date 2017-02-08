@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int characterReplacement(String s, int k) {
         int n = s.length();
         int[] counts = new int[26];

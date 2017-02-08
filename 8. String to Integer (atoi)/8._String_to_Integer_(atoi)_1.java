@@ -1,4 +1,6 @@
-class Solution {
+import java.math.*;
+
+public class Solution {
     public int myAtoi(String str) {
         str = str.trim();
         //long ans = 0;

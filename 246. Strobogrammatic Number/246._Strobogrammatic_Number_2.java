@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean isStrobogrammatic(String num) {
         int left = 0, right = num.length()-1;
         while( left <= right) {

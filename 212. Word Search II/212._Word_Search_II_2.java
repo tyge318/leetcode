@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public class Trie {
         class TrieNode {
             TrieNode[] nexts;

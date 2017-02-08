@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<Integer> largestDivisibleSubset(int[] nums) {
         Arrays.sort(nums);
         TreeMap<Integer, ArrayList<Integer>> table = new TreeMap<Integer, ArrayList<Integer>>();

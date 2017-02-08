@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int jump(int[] nums) {
         int last = 0, current = 0, count = 0, len = nums.length;
         for(int i=0; i<len; i++) {

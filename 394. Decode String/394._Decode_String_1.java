@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String decodeString(String s) {
         //StringBuilder ans = new StringBuilder();
         Stack<String> st = new Stack<String>();

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int lengthOfLongestSubstringTwoDistinct(String s) {
         if( s.length() <= 2)    return s.length();
         Map<Character, Integer> count = new HashMap<>();

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int[] sortTransformedArray(int[] nums, int a, int b, int c) {
         List<Integer> temp = new ArrayList<Integer>();
         int left = 0, right = nums.length-1;

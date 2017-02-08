@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean isHappy(int n) {
         HashSet<Integer> trace = new HashSet<Integer>();
         int temp = convert(n);

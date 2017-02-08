@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         Map<Integer, Integer> ABsums = new HashMap<>();
         Map<Integer, Integer> CDsums = new HashMap<>();

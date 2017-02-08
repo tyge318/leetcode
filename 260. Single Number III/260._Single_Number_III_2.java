@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int[] singleNumber(int[] nums) {
         ArrayList<Integer> track = new ArrayList<Integer>();
         for(int i=0; i<nums.length; i++) {

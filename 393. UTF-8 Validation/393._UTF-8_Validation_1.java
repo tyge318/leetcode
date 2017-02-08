@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean validUtf8(int[] data) {
         for(int i=0; i<data.length; i++) {
             data[i] &= 0xff;

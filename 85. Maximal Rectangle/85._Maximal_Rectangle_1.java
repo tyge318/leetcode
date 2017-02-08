@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int maximalRectangle(char[][] matrix) {
         int row = matrix.length, col = (row == 0) ? 0 : matrix[0].length;
         int[][] heights = new int[row][col+1];

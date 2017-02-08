@@ -1,4 +1,11 @@
-class Solution {
+/*
+lower <= sum(nums[i to j]) <= upper
+acc_sum[i] = sum(nums[0 to i])
+=> target = acc_sum[j] - acc_sum[i-1];
+count the number of targets that meet the condition
+number of targets in [0 to n] = number of targets in [0 to n/2] + number of targets in [n/2+1 to n]
+*/
+public class Solution {
     long[] acc_sum;
     int lower, upper;
     public int countRangeSum(int[] nums, int lower, int upper) {

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int largestRectangleArea(int[] heights) {
         List<Integer> hs = new ArrayList<Integer>();
         for(int i=0; i<heights.length; i++)

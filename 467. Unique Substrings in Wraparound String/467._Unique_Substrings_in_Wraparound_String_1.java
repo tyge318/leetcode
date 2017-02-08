@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int findSubstringInWraproundString(String p) {
         int[] counts = new int[26];
         int temp = 0;

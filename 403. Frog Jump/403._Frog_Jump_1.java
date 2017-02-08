@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean canCross(int[] stones) {
         //each stone records from which position it jumped from
         Map<Integer, Set<Integer>> jumps = new HashMap<Integer, Set<Integer>>();

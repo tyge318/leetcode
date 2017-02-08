@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
         HashMap<Character, Integer> trace = new HashMap<Character, Integer>();
         int begin = 0, ans = 0;

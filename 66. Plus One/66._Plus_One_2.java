@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int[] plusOne(int[] digits) {
         ArrayList<Integer> temp = new ArrayList<Integer>();
         int sum = 0, carry = 0;

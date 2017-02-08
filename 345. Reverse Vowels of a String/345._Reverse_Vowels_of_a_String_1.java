@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String reverseVowels(String s) {
         int left = 0, right = s.length()-1;
         Set<Character> vowels = new HashSet<Character>(Arrays.asList('a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U'));

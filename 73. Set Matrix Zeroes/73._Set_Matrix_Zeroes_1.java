@@ -1,4 +1,6 @@
-class Solution {
+import java.math.BigInteger;
+
+public class Solution {
     public void setZeroes(int[][] matrix) {
         BigInteger rowID = BigInteger.ZERO, colID = BigInteger.ZERO;
         

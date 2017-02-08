@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<Integer> diffWaysToCompute(String input) {
         List<Integer> ans = new ArrayList<Integer>();
         

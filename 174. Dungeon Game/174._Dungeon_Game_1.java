@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int calculateMinimumHP(int[][] dungeon) {
         if( dungeon == null || dungeon.length == 0 || dungeon[0].length == 0) return 1;
         int m = dungeon.length, n = (m == 0) ? 0 : dungeon[0].length;

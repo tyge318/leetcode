@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String parseTernary(String expression) {
         StringBuilder st = new StringBuilder();
         for(int i=expression.length()-1; i>=0; i--) {

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int maxKilledEnemies(char[][] grid) {
         int m = grid.length;
         int n = (m == 0) ? 0: grid[0].length;

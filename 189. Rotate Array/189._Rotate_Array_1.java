@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public void rotate(int[] nums, int k) {
         if( k >= nums.length )
             k %= nums.length;

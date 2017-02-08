@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         TreeSet<Integer> set1, set2;
         set1 = getIntegerTreeSet(nums1);

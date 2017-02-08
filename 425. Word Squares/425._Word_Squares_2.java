@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     class TrieNode {
         TrieNode[] nexts;
         List<String> words;

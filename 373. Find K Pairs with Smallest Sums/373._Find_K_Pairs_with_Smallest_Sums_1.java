@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<int[]> kSmallestPairs(int[] nums1, int[] nums2, int k) {
         int m = nums1.length, n = nums2.length;
         List<int[]> ans = new ArrayList<int[]>();

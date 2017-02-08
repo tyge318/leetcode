@@ -1,4 +1,6 @@
-class Solution {
+import java.math.*;
+
+public class Solution {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> ans = new ArrayList<Integer>();
         List<Integer> temp = new ArrayList<Integer>();

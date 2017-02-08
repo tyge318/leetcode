@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     Map<Integer, List<Integer>> dict;
     public List<String> readBinaryWatch(int num) {
         dict = new HashMap<Integer, List<Integer>>();

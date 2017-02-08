@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int findMinArrowShots(int[][] points) {
         if( points.length == 0)
             return 0;

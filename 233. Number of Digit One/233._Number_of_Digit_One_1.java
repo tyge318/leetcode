@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int countDigitOne(int n) {
         long ans = 0;
         for(long m=1; m<=n; m*=10) {

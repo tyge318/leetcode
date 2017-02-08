@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int hIndex(int[] citations) {
         int size = citations.length;
         

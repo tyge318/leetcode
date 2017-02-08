@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int maxSubArrayLen(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();    //minimum length from index 0 that sums up to key
         int sum = 0, max = 0;

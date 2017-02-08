@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> restoreIpAddresses(String s) {
         return generate(s, 1, 0, s.length()-1);
     }

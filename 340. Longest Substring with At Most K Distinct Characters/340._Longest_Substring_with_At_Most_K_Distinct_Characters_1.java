@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
         if( s == null || s.isEmpty())
             return 0;

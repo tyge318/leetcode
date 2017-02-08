@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int m, n;
     public int minArea(char[][] image, int x, int y) {
         m = image.length;

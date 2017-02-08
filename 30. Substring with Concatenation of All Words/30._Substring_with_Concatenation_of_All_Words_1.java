@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> ans = new ArrayList<Integer>();
         int ssLen = words[0].length()*words.length;

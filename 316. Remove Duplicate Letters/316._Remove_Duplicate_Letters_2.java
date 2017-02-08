@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String removeDuplicateLetters(String s) {
         int[] trace = new int[26];
         

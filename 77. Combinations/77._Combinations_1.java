@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
         if( n == k) {

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean canWin(String s) {
         if( s == null || s.length() < 2)
             return false;

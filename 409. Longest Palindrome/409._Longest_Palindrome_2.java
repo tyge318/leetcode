@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int longestPalindrome(String s) {
         Set<Character> trace = new HashSet<Character>();
         

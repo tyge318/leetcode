@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean canPartition(int[] nums) {
         int sum = 0;
         for(int i: nums)

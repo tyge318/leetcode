@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String fractionToDecimal(int numerator, int denominator) {
         StringBuilder temp = new StringBuilder();
         boolean neg = false;

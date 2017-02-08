@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean PredictTheWinner(int[] nums) {
         return (minMax(nums, 0, nums.length-1) >= 0);
     }

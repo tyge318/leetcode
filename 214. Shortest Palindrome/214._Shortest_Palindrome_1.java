@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String shortestPalindrome(String s) {
         int begin = 0, end = s.length()-1;
         while( end >= 0) {

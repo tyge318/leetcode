@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> summaryRanges(int[] nums) {
         List<String> ans = new ArrayList<>();
         if( nums.length < 1)    return ans;

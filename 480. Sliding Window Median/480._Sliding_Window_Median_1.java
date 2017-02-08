@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public double[] medianSlidingWindow(int[] nums, int k) {
         Queue<Integer> maxHeap = new PriorityQueue<>(new Comparator<Integer>() {
             public int compare(Integer a, Integer b) {

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int[] getModifiedArray(int length, int[][] updates) {
         int[] ans = new int[length];
         for(int[] update: updates) {

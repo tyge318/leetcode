@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean find132pattern(int[] nums) {
         //need to have a1<a3<a2
         int a3 = Integer.MIN_VALUE;

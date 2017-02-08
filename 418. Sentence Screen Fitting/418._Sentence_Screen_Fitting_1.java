@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int wordsTyping(String[] sentence, int rows, int cols) {
         int n = sentence.length, ptr = 0, ans = 0;
         int multiple = 0;

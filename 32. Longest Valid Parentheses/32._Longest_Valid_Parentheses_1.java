@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int longestValidParentheses(String s) {
         int[] OPT = new int[s.length()+1];
         int ans = 0;

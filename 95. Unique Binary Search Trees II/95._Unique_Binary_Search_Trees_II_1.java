@@ -1,4 +1,13 @@
-class Solution {
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
     public List<TreeNode> generateTrees(int n) {
         int[] vals = new int[n];
         for(int i=1; i<=n; i++)

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int numDecodings(String s) {
         int n = s.length();
         if( n < 1 )

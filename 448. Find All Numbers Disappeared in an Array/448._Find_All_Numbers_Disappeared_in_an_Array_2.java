@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         List<Integer> ans = new ArrayList<Integer>();
         int n = nums.length;

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int power(int x, int y) {    //calculate (x^y) % 1337
         int ans = 1;
         while( y > 0) {

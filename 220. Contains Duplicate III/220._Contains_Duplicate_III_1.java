@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         if( nums == null || nums.length == 0 || k < 0 || t < 0)
             return false;

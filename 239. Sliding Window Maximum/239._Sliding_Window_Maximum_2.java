@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int qindex = 0;
         ArrayList<Integer> queue = new ArrayList<Integer>();

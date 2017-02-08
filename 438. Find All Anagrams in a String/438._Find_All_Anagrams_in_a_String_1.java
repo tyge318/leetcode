@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> ans = new ArrayList<Integer>();
         int len = p.length();

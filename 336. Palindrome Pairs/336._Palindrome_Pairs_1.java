@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     Map<String, Integer> map;
     List<List<Integer>> ans;
     public List<List<Integer>> palindromePairs(String[] words) {

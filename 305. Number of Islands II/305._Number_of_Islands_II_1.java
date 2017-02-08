@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<Integer> numIslands2(int m, int n, int[][] positions) {
         List<Integer> ans = new ArrayList<>();
         if( m == 0 || n == 0)   return ans;

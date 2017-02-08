@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean isRectangleCover(int[][] rectangles) {
         int[] array = {Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MIN_VALUE, Integer.MIN_VALUE};
         

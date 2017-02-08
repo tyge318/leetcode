@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
         class Node implements Comparable<Node> {
         int val;
         Set<Node> nexts;

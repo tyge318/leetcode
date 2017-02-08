@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int wiggleMaxLength(int[] nums) {
         if( nums == null )  return 0;
         if( nums.length <= 1 )  return nums.length;

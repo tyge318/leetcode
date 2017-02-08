@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<List<String>> partition(String s) {
         List<List<String>> ans = new ArrayList<List<String>>();
         find(s, ans, new ArrayList<String>(), 0);

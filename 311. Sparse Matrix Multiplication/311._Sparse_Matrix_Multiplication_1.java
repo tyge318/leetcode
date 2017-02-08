@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int[][] multiply(int[][] A, int[][] B) {
         int Am = A.length, An = A[0].length, Bm = B.length, Bn = B[0].length;
         int[][] C = new int[Am][Bn];

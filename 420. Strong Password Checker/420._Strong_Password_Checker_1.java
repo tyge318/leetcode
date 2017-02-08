@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int strongPasswordChecker(String s) {
         boolean hasLower = false, hasUpper = false, hasDigit = false;
         if( s.isEmpty() )

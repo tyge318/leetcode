@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean wordPattern(String pattern, String str) {
         Map<String, Character> strToPattern = new HashMap<>();
         Map<Character, String> patternToStr = new HashMap<>();

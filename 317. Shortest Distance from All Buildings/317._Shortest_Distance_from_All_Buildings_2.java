@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     class Pair{
         int x, y;
         public Pair(int x, int y) {

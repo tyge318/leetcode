@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int m, n;
     public int minTotalDistance(int[][] grid) {
         m = grid.length;

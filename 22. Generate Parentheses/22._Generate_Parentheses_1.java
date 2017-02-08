@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> generateParenthesis(int n) {
         Set<String> temp = new HashSet();
         temp = generate(n, 0, temp);

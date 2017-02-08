@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         Arrays.sort(nums);
         Set<List<Integer>> ans = new HashSet<List<Integer>>();

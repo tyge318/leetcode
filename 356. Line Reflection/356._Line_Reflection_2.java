@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean isReflected(int[][] points) {
         Map<String, Integer> ps = new HashMap<String, Integer>();
         int minX = Integer.MAX_VALUE, maxX = Integer.MIN_VALUE;

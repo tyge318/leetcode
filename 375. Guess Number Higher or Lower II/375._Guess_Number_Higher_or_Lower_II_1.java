@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int getMoneyAmount(int n) {
         int opt[][] = new int[n+1][n+1];
         for(int left = n-1; left > 0; left--) {

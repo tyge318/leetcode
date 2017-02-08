@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean isPerfectSquare(int num) {
         int i = 1;
         while( num > 0 ) {

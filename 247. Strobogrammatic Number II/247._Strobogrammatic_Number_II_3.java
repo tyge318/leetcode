@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> findStrobogrammatic(int n) {
         List<List<String>> opt = new ArrayList<>();
         opt.add(new ArrayList<>(Arrays.asList("")));

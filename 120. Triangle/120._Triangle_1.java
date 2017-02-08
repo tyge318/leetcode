@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         List<List<Integer>> opt = new ArrayList<List<Integer>>();
         opt.add(triangle.get(0));

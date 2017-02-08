@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int threeSumSmaller(int[] nums, int target) {
         int ans = 0;
         Arrays.sort(nums);

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     class Envelope {
         int width, height;
         public Envelope(int w, int h) {

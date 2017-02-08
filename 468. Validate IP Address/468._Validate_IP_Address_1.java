@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String validIPAddress(String IP) {
         if( IP.contains("-") )  return "Neither";
         if( isIPv4(IP) )

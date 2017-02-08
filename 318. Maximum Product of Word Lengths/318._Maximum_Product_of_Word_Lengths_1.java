@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int maxProduct(String[] words) {
         int n = words.length;
         if( n < 2)  return 0;

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int countBattleships(char[][] board) {
         int count = 0;
         int m = board.length;

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int thirdMax(int[] nums) {
         PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>();
         

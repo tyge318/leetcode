@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int lengthOfLongestSubstringTwoDistinct(String s) {
         Map<Character, Integer> trace = new HashMap<Character, Integer>();
         if(s.length() <= 2)

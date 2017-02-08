@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int strStr(String haystack, String needle) {
         int needle_len = needle.length();
         int haystack_len = haystack.length();

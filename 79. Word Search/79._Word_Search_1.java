@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int[] vi = {-1, 1, 0, 0};
     int[] vj = {0, 0, -1, 1};
     public boolean exist(char[][] board, String word) {

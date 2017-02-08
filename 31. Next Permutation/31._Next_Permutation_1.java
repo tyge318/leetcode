@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public void nextPermutation(int[] nums) {
         int targetPos = findTarget(nums);
         if( targetPos == -1 ) {

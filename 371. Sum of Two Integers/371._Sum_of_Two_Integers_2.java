@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int getSum(int a, int b) {
         int ans = 0, carry = 0, t = 1;
         while( (a | b | carry) != 0) {

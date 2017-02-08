@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     Map<String, List<String>> map;
     public int ladderLength(String beginWord, String endWord, Set<String> wordList) {
         wordList.add(beginWord);

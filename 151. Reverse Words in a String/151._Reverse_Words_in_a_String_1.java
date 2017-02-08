@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String reverseWords(String s) {
         String tokens[] = s.split("\\s+");
         StringBuilder temp = new StringBuilder();

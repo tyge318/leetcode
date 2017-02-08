@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int findNthDigit(int n) {
         int digitCount = 1;
         long offset = 9;

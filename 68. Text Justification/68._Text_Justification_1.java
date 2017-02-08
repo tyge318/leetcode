@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> fullJustify(String[] words, int maxWidth) {
         List<String> ans = new ArrayList<String>();
         List<String> line = new ArrayList<String>();

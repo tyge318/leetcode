@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int numSquares(int n) {
         int[] opt = new int[n+1];
         Arrays.fill(opt, n);

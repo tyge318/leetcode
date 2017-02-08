@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     Map<String, Boolean> cache;
     public boolean canWin(String s) {
         if( s.length() < 2)

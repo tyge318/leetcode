@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String addBinary(String a, String b) {
         int length = Math.max(a.length(), b.length());
         StringBuilder tempA = new StringBuilder(a);

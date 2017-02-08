@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> wordBreak(String s, Set<String> wordDict) {
         List<String> opt[] = new ArrayList[s.length()+1];
         opt[0] = new ArrayList<String>();

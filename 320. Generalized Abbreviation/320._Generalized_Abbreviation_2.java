@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> generateAbbreviations(String word) {
         List<String> ans = new ArrayList<String>();
         dfs(ans, word, 0, "", 0);

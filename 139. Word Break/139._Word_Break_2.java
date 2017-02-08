@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean wordBreak(String s, Set<String> wordDict) {
         boolean[] opt = new boolean[s.length()+1];
         opt[0] = true;

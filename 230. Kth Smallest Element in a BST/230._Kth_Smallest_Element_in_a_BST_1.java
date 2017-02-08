@@ -1,4 +1,13 @@
-class Solution {
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
     List<Integer> trace;
     public int kthSmallest(TreeNode root, int k) {
         trace = new ArrayList<Integer>();

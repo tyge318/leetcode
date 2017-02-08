@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int m, n;
     public void gameOfLife(int[][] board) {
         m = board.length;

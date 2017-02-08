@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int findMaximumXOR(int[] nums) {
         int ans = 0, mask = 0;
         for(int i=31; i>=0; i--) {

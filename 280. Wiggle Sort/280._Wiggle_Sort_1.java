@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public void wiggleSort(int[] nums) {
         for(int i=1; i<nums.length; i++) {
             int temp = nums[i-1];

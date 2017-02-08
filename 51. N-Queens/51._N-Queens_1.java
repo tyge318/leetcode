@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<List<String>> solveNQueens(int n) {
         List<List<Integer>> ans = generate(0, n, (new ArrayList<List<Integer>>() ) );
         List<List<String>> out = new ArrayList<List<String>>();

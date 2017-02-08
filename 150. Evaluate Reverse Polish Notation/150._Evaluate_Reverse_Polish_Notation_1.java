@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int evalRPN(String[] tokens) {
         Stack<Long> st = new Stack<Long>();
         for(int i=0; i<tokens.length; i++) {

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int nthUglyNumber(int n) {
         List<Integer> trace = new ArrayList<Integer>();
         trace.add(1);

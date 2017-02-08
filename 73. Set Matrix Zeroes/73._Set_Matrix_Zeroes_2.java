@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public void setZeroes(int[][] matrix) {
         List<Integer> rowID = new ArrayList<Integer>();
         List<Integer> colID = new ArrayList<Integer>();

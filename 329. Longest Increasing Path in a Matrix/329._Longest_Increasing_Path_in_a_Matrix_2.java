@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int[][] matrix;
     int[][] opt;
     int m, n;

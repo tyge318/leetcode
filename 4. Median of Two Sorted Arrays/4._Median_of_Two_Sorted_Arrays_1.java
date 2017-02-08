@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int sum = nums1.length + nums2.length;
         if( sum % 2 == 1)

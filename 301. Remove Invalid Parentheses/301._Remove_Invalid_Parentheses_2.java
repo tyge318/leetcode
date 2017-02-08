@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     List<String> ans;
     public List<String> removeInvalidParentheses(String s) {
         ans = new ArrayList<String>();

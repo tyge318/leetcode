@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int maxCoins(int[] nums) {
         int[] array = new int[nums.length+2];
         array[0] = 1;

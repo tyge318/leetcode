@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<Integer> lexicalOrder(int n) {
         List<Integer> ans = new ArrayList<Integer>();
         for(int i=1; i<=9; i++) {

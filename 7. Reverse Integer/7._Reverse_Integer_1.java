@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int reverse(int x) {
         String xStr = String.valueOf(x);
         boolean neg = false;

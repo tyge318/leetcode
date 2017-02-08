@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
         for(int i=0; i<=nums.length; i++) 

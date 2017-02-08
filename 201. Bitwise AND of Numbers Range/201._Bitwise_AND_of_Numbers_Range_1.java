@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int rangeBitwiseAnd(int m, int n) {
         int temp = log2(n-m);
         int tailMask = (0xffffffff << temp);

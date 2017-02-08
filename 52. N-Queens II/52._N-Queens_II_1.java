@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int totalNQueens(int n) {
         List<List<Integer>> ans = generate(0, n, (new ArrayList<List<Integer>>() ) );
         return ans.size();

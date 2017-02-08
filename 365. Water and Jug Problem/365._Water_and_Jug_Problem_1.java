@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if( x < y ) {
             int temp = x;

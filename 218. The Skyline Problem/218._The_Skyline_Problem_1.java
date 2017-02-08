@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<int[]> getSkyline(int[][] buildings) {
         List<int[]> ans = new ArrayList<>();
         List<int[]> q = new LinkedList<int[]>();

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int numDistinct(String s, String t) {
         int m = s.length(), n = t.length();
         int[][] opt = new int[m+1][n+1];

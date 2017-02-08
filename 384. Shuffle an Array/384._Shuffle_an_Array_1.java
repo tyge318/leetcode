@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int[] nums;
     int[] current;
     Random random;

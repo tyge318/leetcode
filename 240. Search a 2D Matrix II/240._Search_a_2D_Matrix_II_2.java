@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int m = matrix.length, n = matrix[0].length;
         return search(matrix, 0, m-1, 0, n-1, target);   

@@ -1,4 +1,5 @@
-class Solution {
+import java.math.BigInteger;
+public class Solution {
     public int firstMissingPositive(int[] nums) {
         BigInteger trace = BigInteger.ONE;
         int ans = 0;

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int[][] skip;
     boolean[] visited;
     public int numberOfPatterns(int m, int n) {

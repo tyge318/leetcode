@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> generatePossibleNextMoves(String s) {
         List<String> ans = new ArrayList<>();
         for(int i=0; i<s.length()-1; i++) {

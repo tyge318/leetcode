@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public String addStrings(String num1, String num2) {
         StringBuilder sum = new StringBuilder();
         num1 = (new StringBuilder(num1)).reverse().toString();

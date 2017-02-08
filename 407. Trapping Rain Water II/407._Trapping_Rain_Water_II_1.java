@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     int m, n;
     class Cell implements Comparable<Cell>{
         int x, y, height;

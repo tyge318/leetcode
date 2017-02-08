@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int[] constructRectangle(int area) {
         int L = (int)Math.ceil(Math.sqrt(area)), W;
         while( area % L != 0 ) {

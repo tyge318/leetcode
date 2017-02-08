@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int minCut(String s) {
         boolean[][] opt = new boolean[s.length()][s.length()];
         int min[] = new int[s.length()];

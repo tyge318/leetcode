@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean isReflected(int[][] points) {
         Set<String> set = new HashSet<>();
         int minX = Integer.MAX_VALUE, maxX = Integer.MIN_VALUE;

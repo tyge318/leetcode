@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int findTargetSumWays(int[] nums, int S) {
         int sum = 0;
         for(int i=0; i<nums.length; i++) {

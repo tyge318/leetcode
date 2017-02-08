@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public char findTheDifference(String s, String t) {
         char ans = 0;
         for(int i=0; i < s.length(); i++) {

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int threeSumSmaller(int[] nums, int target) {
         if( nums.length < 3)
             return 0;

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int uniquePaths(int m, int n) {
         return combination((m+n-2), Math.min(m-1, n-1));
     }

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean sequenceReconstruction(int[] org, int[][] seqs) {
         Map<Integer, Set<Integer>> graph = new HashMap<>();
         Map<Integer, Integer> inDeg = new HashMap<>();

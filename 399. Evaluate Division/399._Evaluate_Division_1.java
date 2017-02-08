@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public double[] calcEquation(String[][] equations, double[] values, String[][] queries) {
         Map<String, Integer> indices = new HashMap<String, Integer>();
         for(int i=0; i<equations.length; i++) {

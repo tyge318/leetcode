@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int shortestWordDistance(String[] words, String word1, String word2) {
         int cache = -1, ans = words.length;
         for(int i=0; i<words.length; i++) {

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<String> findStrobogrammatic(int n) {
         List<String> ans = helper(n);
         if( n <= 1 )    return ans;

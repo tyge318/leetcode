@@ -1,4 +1,13 @@
-class Solution {
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
     int max = Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root) {
         int rootMax = compute(root);
